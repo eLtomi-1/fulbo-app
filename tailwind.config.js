@@ -2,18 +2,21 @@
 export default {
   content: ['./src/**/*.{html,js,svelte}'],
   theme: {
+    fontFamily: {
+      'inter': ['Inter'],
+    },
     extend: {
       screens: {
-        'mb': '470px',
+        'mb': '440px',
+        'mbx': '490px',
         // mobile
         'mbs': '400px',
         // mobile small
       },
       colors: {
-        'orange': '#D97830',
-        'ligthviolet': '#F7F7F7',
+        'ligthviolet': '#F3F1F7',
         'gray': '#f2f4f7',
-        'semiblack': '#636363',
+        'semiblack': '#213547',
       },
     },
   },

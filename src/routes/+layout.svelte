@@ -2,9 +2,8 @@
   import "./styles.css";
 </script>
 
-<div class="app">
-  <div class="absolute top-0 h-[4.9rem] w-full bg-orange"></div>
-  <main class="bg-grey">
+<div class="app bg-ligthviolet">
+  <main class="bg-ligthviolet">
     <slot />
   </main>
 </div>
@@ -19,13 +18,11 @@
   main {
     flex: 1;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
     padding: 0;
     margin: 0 auto;
     width: 100%;
-    max-width: 100%;
+    height: 100vh;
     box-sizing: border-box;
   }
 </style>
