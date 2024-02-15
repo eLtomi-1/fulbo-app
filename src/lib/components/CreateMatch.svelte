@@ -95,11 +95,18 @@
         maxlength="20"
         bind:value={NombrePartido}
       ></Input>
-      <Input type="number" placeholder="Precio total" bind:value={PrecioPartido}
+      <Input
+        type="number"
+        placeholder="Precio total"
+        min="1"
+        max="100000"
+        bind:value={PrecioPartido}
       ></Input>
       <Input
         type="text"
         placeholder="Lugar del Partido"
+        minlength="3"
+        maxlength="25"
         bind:value={LugarPartido}
       ></Input>
       <Input type="datetime-local" placeholder="Fecha" bind:value={FechaPartido}
