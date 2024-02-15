@@ -25,7 +25,6 @@
 
 *{
   position:relative;
-font-smooth: always;
 }
 body {
 	min-height: 100vh;
